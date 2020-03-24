@@ -3,7 +3,7 @@ FROM ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ=Asia/Tokyo
 ENV LANG=en_US.UTF-8
-ENV HUGO_VERSION=0.68.1
+ENV HUGO_VERSION=0.68.3
 
 #RUN sed -i.bak -e "s%http://archive.ubuntu.com/ubuntu/%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list
 RUN apt-get -y update
